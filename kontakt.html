@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kontakt</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- HTML CODE -->
+    <!-- Header section -->
+    <header class="header">
+        <!-- top header -->
+        <div class="traveltour-top-bar">
+            <div class="container">
+                <div class="top-header-inner">
+                    <div class="top-bar-left">
+                        <a href="tel:43(0)123456789"><i class="fa-solid fa-phone"></i> +43 (0) 123 456 789 </a>
+                        <a href="mailto:support@spinstays.com"><i class="fa-regular fa-envelope"></i>
+                            support@spinstays.com
+                        </a>
+                    </div>
+                    <div class="top-bar-right">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top header -->
+        <!-- main header -->
+        <div class="navigation page-header">
+            <div class="container">
+                <div class="navigation-inner">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="sidenavs" id="mySidenavs">
+                            <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i
+                                    class="fa-solid fa-xmark"></i></span>
+                            <ul>
+                                <li><a href="hotels.html">Hotels </a></li>
+                                <li><a href="spa.html">Spa </a></li>
+                                <li><a href="unterhaltung.html">Unterhaltung </a></li>
+                                <li><a href="sehenswurdigkeiten.html">Sehenswürdigkeiten </a></li>
+                                <li><a href="kontakt.html" class="active">Kontakt </a></li>
+                            </ul>
+                        </div>
+                        <div class="toggle-bar">
+                            <span class="toggle_menu" onclick="openNav()"><i class="fa fa-bars"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main header -->
+    </header>
+    <!-- Header section -->
+
+    <!-- Banner section -->
+    <div class="hero-section kontakt">
+        <div class="container">
+            <div class="hero-inner">
+                <h2>kontakt </h2>
+            </div>
+        </div>
+
+    </div>
+    <!-- Banner section -->
+
+    <section class="contactbox">
+        <div class="container">
+            <div class="contact-inner">
+                <p>Vielen Dank, dass Sie uns für Ihre Reisebedürfnisse ausgewählt haben. Wir freuen uns darauf, Sie zu
+                    unterstützen und sicherzustellen, dass Sie die besten Reiseerlebnisse in Österreich haben. Sichere
+                    Reisen! </p>
+                <p>Sollten Sie Fragen haben, steht Ihnen unser engagiertes Kundensupport-Team gerne zur Verfügung. Bitte
+                    kontaktieren Sie uns gerne per E-Mail oder Telefon.
+                </p>
+                <p>E-Mail : <a href="mailto:support@spinstays.com ">support@spinstays.com </a>
+                </p>
+                <p>Telefon : <a href="tel:+43(0)123456789 ">+43 (0) 123 456 789 </a>
+                </p>
+                <p>Geschäftsanfragen: Für geschäftliche Anfragen, Partnerschaften oder Kooperationen ist unser Team
+                    bereit, gemeinsam mit Ihnen Möglichkeiten zu erkunden. Bitte
+                    kontaktieren Sie unser Geschäftsentwicklungsteam über die folgenden Informationen:
+                </p>
+                <p>E-Mail : <a href="mailto:Partnerschaften@spinstays.com">Partnerschaften@spinstays.com </a>
+                </p>
+                <p><a href="">Facebook </a></p>
+                <p><a href="">Twitter </a></p>
+                <p><a href="">Instagram </a></p>
+                <p>Wir schätzen Ihr Feedback und sind ständig bestrebt, unsere Dienstleistungen zu verbessern. Wenn Sie
+                    Vorschläge oder Kommentare haben, füllen Sie bitte das untenstehende Informationsformular aus. </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="">
+        <div class="container">
+            <div class="">
+                <form id="myForm" action="/submit" method="post">
+                    <div class="form-inner">
+                        <label for="name">First Name:</label>
+                        <input type="text" id="name" name="name">
+                        <div id="nameError" class="error"></div>
+                    </div>
+                    <div class="form-inner">
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="last_name" name="last_name">
+                        <div id="last_nameError" class="error"></div>
+                    </div>
+
+                    <div class="form-inner">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                        <div id="emailError" class="error"></div>
+                    </div>
+                    <div class="form-inner">
+                        <label for="numr">numr:</label>
+                        <input type="text" id="numr" name="numr">
+                        <div id="numrError" class="error"></div>
+                    </div>
+                    <div class="form-inner">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+
+                        <div id="messageError" class="error"></div>
+
+                    </div>
+
+                    <button type="button" onclick="validateForm()">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="footer-logo">
+                            <figure>
+                                <a href="index.html">
+                                    <img src="img/logo.png" alt="">
+                                </a>
+                            </figure>
+                            <div class="heute">
+                                <p>Entdecken Sie noch heute ein angenehmes Urlaubsziel. Sie suchen den perfekten
+                                    Kurzurlaub, sind sich aber nicht sicher, wo Sie hingehen und wie Sie Ihre Reise
+                                    planen sollen? </p>
+
+                            </div>
+                            <div class="top-bar-soc">
+                                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="menu-footer">
+                            <h3>menu</h3>
+                            <ul>
+                                <li><a href="hotels.html" class="">Hotels </a></li>
+                                <li><a href="spa.html">Spa </a></li>
+                                <li><a href="unterhaltung.html">Unterhaltung </a></li>
+                                <li><a href="sehenswurdigkeiten.html">Sehenswürdigkeiten </a></li>
+                                <li><a href="kontakt.html">Kontakt </a></li>
+                                <li><a href="geschaftsbedingungen.html">Geschaftsbedingungen </a></li>
+                                <li><a href="datenschutzrichtlinie.html">Datenschutzrichtlinie </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="menu-footer">
+                            <h3>Kontakt</h3>
+                            <div class="jealousy">
+                                <a href="tel:43(0)123456789"><i class="fa-solid fa-phone"></i> +43 (0) 123 456 789 </a>
+                                <a href="mailto:support@spinstays.com"><i class="fa-regular fa-envelope"></i>
+                                    support@spinstays.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2024 Spinstays.com Alle Rechte vorbehalten</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function (event) {
+            // Prevent form submission
+            event.preventDefault();
+
+            // Reset previous error messages
+            document.querySelectorAll('.error').forEach(function (element) {
+                element.textContent = '';
+            });
+
+            // Perform validation
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+            var valid = true;
+
+            if (!name) {
+                document.getElementById('nameError').textContent = 'Please enter your first name';
+                valid = false;
+            }
+
+            if (!email) {
+                document.getElementById('emailError').textContent = 'Please enter your email';
+                valid = false;
+            }
+
+            if (!message) {
+                document.getElementById('messageError').textContent = 'Please enter your message';
+                valid = false;
+            }
+
+            // If all fields are valid, you can submit the form
+            if (valid) {
+                this.submit();
+            }
+        });
+    </script>
+
+
+    <!-- HTML CODE -->
+    <!-- JS FILE -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/validation.js"></script>
+    <script>
+        const header = document.querySelector(".page-header");
+        const toggleClass = "is-sticky";
+
+        window.addEventListener("scroll", () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > 50) {
+                header.classList.add(toggleClass);
+            } else {
+                header.classList.remove(toggleClass);
+            }
+        });
+    </script>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
