@@ -210,43 +210,7 @@
         </div>
     </footer>
 
-    <script>
-        document.getElementById('myForm').addEventListener('submit', function (event) {
-            // Prevent form submission
-            event.preventDefault();
 
-            // Reset previous error messages
-            document.querySelectorAll('.error').forEach(function (element) {
-                element.textContent = '';
-            });
-
-            // Perform validation
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var message = document.getElementById('message').value;
-            var valid = true;
-
-            if (!name) {
-                document.getElementById('nameError').textContent = 'Please enter your first name';
-                valid = false;
-            }
-
-            if (!email) {
-                document.getElementById('emailError').textContent = 'Please enter your email';
-                valid = false;
-            }
-
-            if (!message) {
-                document.getElementById('messageError').textContent = 'Please enter your message';
-                valid = false;
-            }
-
-            // If all fields are valid, you can submit the form
-            if (valid) {
-                this.submit();
-            }
-        });
-    </script>
 
 
     <!-- HTML CODE -->
