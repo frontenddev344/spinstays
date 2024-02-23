@@ -721,3 +721,22 @@ section.myForm-box {
     padding-bottom: 30px;
     font-weight: 700;
 }
+
+/* sightseeing page*/
+.hero-section.sightseeing {
+    background: url(../img/Sightseeing-features.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+section.treasure {
+    padding-top: 60px;
+}
+
+.treasure-text p {
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
