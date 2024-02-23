@@ -765,8 +765,18 @@ section.oasis-awaits {
     text-transform: capitalize;
     color: #1c2935;
 }
+
 .wohltuende p {
     color: #000;
     font-size: 18px;
     line-height: 30px;
+}
+
+.immerse .row {
+    align-items: center;
+}
+
+.immerseing img {
+    height: 365px;
+    object-fit: cover;
 }
