@@ -562,6 +562,39 @@ footer.footer {
     background-position: center;
 }
 
+section.austrian {
+    padding: 60px 0;
+}
+
+.austrian-inner-box {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #fff;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.oasis img {
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.oasis-text h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #1c2935;
+}
+
+.oasis-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000;
+}
+
+.oasis img:hover {
+    transform: scale(1.1);
+}
 
 /* contact page */
 .hero-section.kontakt {
