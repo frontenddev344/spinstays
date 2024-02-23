@@ -790,3 +790,37 @@ section.oasis-awaits {
 .amanruya-text p span {
     font-weight: bold;
 }
+
+/* Entertainment page css */
+.hero-section.entertainment {
+    background: url(../img/Entertainment.avif);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.wohltuendekad {
+    padding: 50px 0 0;
+}
+
+.wohltuendekad p {
+    color: #000;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.wohltuendekad p span {
+    font-weight: bold;
+}
+
+.immerse-text h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #1c2935;
+}
+
+.immerse-text p {
+    font-size: 16px;
+    color: #000;
+    line-height: 28px;
+}
