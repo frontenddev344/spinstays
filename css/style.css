@@ -740,3 +740,9 @@ section.treasure {
     line-height: 30px;
     text-align: center;
 }
+
+.discover-box h4 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #1c2935;
+}
