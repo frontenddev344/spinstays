@@ -746,3 +746,27 @@ section.treasure {
     font-weight: 600;
     color: #1c2935;
 }
+
+/* spa page  */
+.hero-section.spa {
+    background: url(../img/Spa.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+section.oasis-awaits {
+    padding: 60px 0;
+}
+
+.wohltuende h3 {
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #1c2935;
+}
+.wohltuende p {
+    color: #000;
+    font-size: 18px;
+    line-height: 30px;
+}
