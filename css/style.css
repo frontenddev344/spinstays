@@ -780,3 +780,13 @@ section.oasis-awaits {
     height: 365px;
     object-fit: cover;
 }
+
+.amanruya-text p {
+    color: #000;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.amanruya-text p span {
+    font-weight: bold;
+}
