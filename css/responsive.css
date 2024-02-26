@@ -13,6 +13,15 @@
         padding-top: 45px;
     }
 
+    a.active {
+        color: #fff !important;
+        border-bottom: none;
+    }
+
+    .page-header {
+        opacity: 1;
+    }
+
     .toggle-bar {
         display: block !important;
         color: #fff;
