@@ -828,3 +828,10 @@ section.oasis-awaits {
 .contact-inner p span {
     font-weight: 700;
 }
+
+.hero-section.terms {
+    background: url(../img/termn.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
