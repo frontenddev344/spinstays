@@ -1,10 +1,9 @@
 function validateForm() {
     var name = document.getElementById('name').value;
-    var last_name = document.getElementById('last_name').value; // Updated variable name
+    var last_name = document.getElementById('last_name').value; 
     var email = document.getElementById('email').value;
     var numr = document.getElementById('numr').value;
-    var message = document.getElementById('message').value; // Get the value of the message field
-
+    var message = document.getElementById('message').value; 
     var valid = true;
 
     // Reset previous error messages
@@ -18,7 +17,7 @@ function validateForm() {
         valid = false;
     }
     if (!last_name) {
-        document.getElementById('last_nameError').textContent = 'Please enter your last name'; // Updated to set the error message in 'last_nameError' div
+        document.getElementById('last_nameError').textContent = 'Please enter your last name'; 
         valid = false;
     }
     if (!email) {
@@ -26,15 +25,14 @@ function validateForm() {
         valid = false;
     }
     if (!numr) {
-        document.getElementById('numrError').textContent = 'Please enter your phone number'; // Corrected to set the error message in 'numrError' div
+        document.getElementById('numrError').textContent = 'Please enter your phone number'; 
         valid = false;
     }
     if (!message) {
-        document.getElementById('messageError').textContent = 'Please enter your message'; // Set error message if message field is empty
+        document.getElementById('messageError').textContent = 'Please enter your message';
         valid = false;
     }
 
-    // If all fields are valid, you can submit the form
     if (valid) {
         document.getElementById('myForm').submit();
     }
