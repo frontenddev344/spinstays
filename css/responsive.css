@@ -41,14 +41,19 @@
         display: block;
         color: #fff;
     }
+
+    .menu-footer h3 {
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .traveltour-top-bar {
         display: none;
     }
+
     .page-header {
         top: 0;
-        
+
     }
 }

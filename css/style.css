@@ -824,3 +824,7 @@ section.oasis-awaits {
     color: #000;
     line-height: 28px;
 }
+
+.contact-inner p span {
+    font-weight: 700;
+}
