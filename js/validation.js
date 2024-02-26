@@ -26,7 +26,7 @@ function validateForm() {
         valid = false;
     }
     if (!numr) {
-        document.getElementById('numrError').textContent = 'Please enter your numr'; // Corrected to set the error message in 'numrError' div
+        document.getElementById('numrError').textContent = 'Please enter your phone number'; // Corrected to set the error message in 'numrError' div
         valid = false;
     }
     if (!message) {
