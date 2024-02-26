@@ -736,9 +736,14 @@ section.treasure {
 
 .treasure-text p {
     color: #000;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     text-align: center;
+    margin: 0;
+}
+
+.austrian-inner .austrian-inner-box:first-child {
+    margin-top: 0;
 }
 
 .discover-box h4 {

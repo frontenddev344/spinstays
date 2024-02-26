@@ -54,6 +54,22 @@
     .menu-footer h3 {
         margin-top: 20px;
     }
+
+    .luxurious-cards .row .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .oasis-text h3 {
+        margin-top: 20px;
+    }
+
+    .immerse-text {
+        margin: 20px 0;
+    }
+
+    .immerse.one .row {
+        flex-direction: column-reverse;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -63,5 +79,18 @@
 
     .page-header {
         top: 0;
+    }
+
+    .hero-section {
+        height: 500px;
+    }
+
+    .hero-inner {
+
+        margin-top: 40px;
+    }
+
+    .hero-inner h1 {
+        font-size: 30px;
     }
 }
