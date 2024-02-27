@@ -840,3 +840,13 @@ section.oasis-awaits {
     background-position: center;
     height: 500px;
 }
+
+section.austrian-once {
+    padding-top: 60px;
+}
+
+.discover-box h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #1c2935;
+}
