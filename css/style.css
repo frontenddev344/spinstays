@@ -57,6 +57,14 @@ header.header .traveltour-top-bar {
     padding: 15px 0;
 }
 
+header.header {
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    left: 0;
+}
+
 header.header .traveltour-top-bar .top-header-inner {
     display: flex;
     justify-content: space-between;
@@ -112,10 +120,7 @@ header.header .traveltour-top-bar .top-header-inner .top-bar-right a:hover {
 }
 
 .page-header {
-    position: fixed;
-    top: 48px;
-    right: 0;
-    left: 0;
+    width: 100%;
     background-color: #1d2b36;
     z-index: 999;
     opacity: .7;
